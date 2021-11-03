@@ -42,7 +42,7 @@ if __name__ == '__main__':
     Message = input("Enter message: ")
 
     cipher = encrypt(Message, key)
-    print(f"------------------\nCipher is:\t{cipher}")
+    print(f"------------------\nCipher is:{cipher}")
 
     message = decrypt(cipher, key)
-    print(f"------------------\nMessage after Decrypting is:\t{message}\n------------------")
+    print(f"------------------\nMessage after Decrypting is:{message}\n------------------")
