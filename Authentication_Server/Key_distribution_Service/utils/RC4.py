@@ -1,3 +1,6 @@
+'''
+    - This contains the RC4 encryption algorithm
+'''
 class RC4(object):
     def array_to_str(self, arr):
         return "".join([str(i) for i in arr])
@@ -67,16 +70,3 @@ class RC4(object):
         hex_message = self.array_to_str(message)
 
         return bytearray.fromhex(hex_message).decode()
-
-
-if __name__ == '__main__':
-    text = "Test Text"
-    key = "Brian"
-
-    enc = RC4()
-    cipher = enc.encrypt(text, key)
-    message = enc.decrypt(cipher, key)
-
-
-    print(f'Original Text: {text} \nEncrypted text: {cipher} \nDecrypted Message: {message}')
-

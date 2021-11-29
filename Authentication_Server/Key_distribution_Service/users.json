@@ -1,0 +1,12 @@
+{
+    "alice": {
+        "secret": "f2a4096d0fa07267116f3498ece864de",
+        "date_joined": "2021-11-28 21:07:30.733470",
+        "TGS_S_K": "da16bd64c38e9466e34425cca123d49e"
+    },
+    "bob": {
+        "secret": "eecb806271f3fa52d3e77611aac24d0d",
+        "date_joined": "2021-11-28 21:07:30.733486",
+        "TGS_S_K": "c6f6ad68d21ac0824919e75d4324f796"
+    }
+}
